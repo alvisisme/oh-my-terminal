@@ -1,16 +1,33 @@
 # oh-my-terminal
-终端配置工具集合
+
+个人终端配置环境集合
 
 ## 工具集合
 
-**zsh**
+* zsh
+* tmux
+* vim
+
+## 使用说明
+
+1. 安装必要的软件
+
+    ```bash
+    sudo apt-get install git zsh tmux vim
+    ```
+
+1. 备份必要的配置文件
+
+1. 安装使用
+
+    ```bash
+    git clone https://github.com/alvisisme/oh-my-terminal.git ~/.oh-my-terminal
+    sh ~/.oh-my-terminal/setup.sh
+    ```
+
+## 参考引用
 
 * [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
-
-**tmux**
-
 * [on-my-tmux](https://github.com/gpakosz/.tmux)
-
-**vim**
-
-* [vimrc-cpp](https://github.com/alvisisme/vimrc-cpp)
+* [super-vimer](https://github.com/alvisisme/super-vimer)
+* [Linux SSH终端terminal配色更改为256色](https://www.haiyun.me/archives/linux-terminal-xterm-256color.html)
