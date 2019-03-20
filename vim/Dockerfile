@@ -1,4 +1,3 @@
-# docker build -t alvisisme/cpp-dev .
 FROM alvisisme/docker-ubuntu-non-root-with-utils
 
 LABEL maintainer="Alvis<alvisisme@gmail.com>"

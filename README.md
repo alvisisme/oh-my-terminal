@@ -25,6 +25,13 @@
     sh ~/.oh-my-terminal/setup.sh
     ```
 
+## 效果预览
+
+```bash
+docker build -t oh-my-terminal .
+docker run -it oh-my-terminal
+```
+
 ## 参考引用
 
 * [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
