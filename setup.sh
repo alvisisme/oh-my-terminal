@@ -9,6 +9,7 @@ ln -s -f ~/.oh-my-terminal/tmux/.tmux.conf ~/.tmux.conf
 ln -s -f ~/.oh-my-terminal/tmux/.tmux.conf.local ~/.tmux.conf.local
 
 # vim
+mkdir -p  ~/.vim/plugged
 ln -s -f ~/.oh-my-terminal/vim ~/.vim_runtime
 sh ~/.vim_runtime/install_basic_vimrc.sh
 
