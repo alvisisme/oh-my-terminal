@@ -8,7 +8,7 @@
 * tmux
 * vim
 
-## 安装说明
+## 如何安装
 
 1. 安装必要的软件
 
@@ -18,11 +18,28 @@
 
 1. 备份必要的配置文件
 
-1. 安装使用
+1. 安装本工程
 
     ```bash
     git clone https://github.com/alvisisme/oh-my-terminal.git ~/.oh-my-terminal
-    sh ~/.oh-my-terminal/setup.sh
+    sh ~/.oh-my-terminal/install.sh
+    ```
+
+1. 切换默认shell
+
+    ```bash
+    chsh -s $(which zsh)
+    ```
+
+1. 安装vim插件
+
+    进入vim,命令模式下执行`:PlugInstall`，自动联网下载插件，插件位于`~/.oh-my-terminal/vim/plugged`目录下
+
+## 如何卸载
+
+    ```bash
+    sh ~/.oh-my-terminal/uninstall.sh
+    rm -r ~/.oh-my-terminal/
     ```
 
 ## 效果预览
@@ -146,14 +163,12 @@ docker run -it oh-my-terminal
 
     `PREFIX 空格键`
 
-## 注意事项
-
-vim插件默认安装在`~/.vim/plugged`目录下，离线安装时需要将本工程和已完成安装的`~/.vim/plugged`一起复制移动到新机器上。
-
-
 ## 参考引用
 
 * [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 * [on-my-tmux](https://github.com/gpakosz/.tmux)
-* [super-vimer](https://github.com/alvisisme/super-vimer)
+* [amix vimrc](https://github.com/amix/vimrc)
+* [use vim as ide](https://github.com/yangyangwithgnu/use_vim_as_ide)
+* [VIM Awesome](https://vimawesome.com/)
+* [如何在 Linux 下利用 Vim 搭建 C/C++ 开发环境? - 韦易笑的回答 - 知乎](https://www.zhihu.com/question/47691414/answer/373700711)
 * [Linux SSH终端terminal配色更改为256色](https://www.haiyun.me/archives/linux-terminal-xterm-256color.html)

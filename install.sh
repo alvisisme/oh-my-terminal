@@ -9,9 +9,6 @@ ln -s -f ~/.oh-my-terminal/tmux/.tmux.conf ~/.tmux.conf
 ln -s -f ~/.oh-my-terminal/tmux/.tmux.conf.local ~/.tmux.conf.local
 
 # vim
-mkdir -p  ~/.vim/plugged
+mkdir -p ~/.oh-my-terminal/vim/plugged
 ln -s -f ~/.oh-my-terminal/vim ~/.vim_runtime
-sh ~/.vim_runtime/install_basic_vimrc.sh
-
-# 切换当前用户默认shell，重新进入终端后生效
-chsh -s $(which zsh)
+sh ~/.vim_runtime/install_super_vimrc.sh
