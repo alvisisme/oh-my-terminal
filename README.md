@@ -37,10 +37,10 @@
 
 ## 如何卸载
 
-    ```bash
-    sh ~/.oh-my-terminal/uninstall.sh
-    rm -r ~/.oh-my-terminal/
-    ```
+```bash
+sh ~/.oh-my-terminal/uninstall.sh
+rm -r ~/.oh-my-terminal/
+```
 
 ## 效果预览
 
