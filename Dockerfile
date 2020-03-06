@@ -1,5 +1,4 @@
-FROM alvisisme/docker-ubuntu-1604-163
-LABEL maintainer="Alvis Zhao <alvisisme@163.com>"
+FROM alvisisme/ubuntu:18.04
 
 RUN apt-get update && \
     DEBIAN_FRONTEND=noninteractive apt-get install -y git vim zsh tmux
