@@ -29,11 +29,8 @@
 
     ```bash
     chsh -s $(which zsh)
+    zsh
     ```
-
-1. 安装vim插件
-
-    进入vim,命令模式下执行`:PlugInstall`，自动联网下载插件，插件位于`~/.oh-my-terminal/vim/plugged`目录下
 
 ## 如何卸载
 
