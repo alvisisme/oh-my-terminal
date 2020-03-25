@@ -1,8 +1,11 @@
 #!/bin/bash
 
+# tmux
 rm -f ~/.tmux.conf
 rm -f ~/.tmux.conf.local
-rm -f ~/.oh-my-zsh
-rm -f ~/.vim_runtime
+
+# vim
 rm -f ~/.vimrc
+
+# zsh
 rm -f ~/.zshrc
