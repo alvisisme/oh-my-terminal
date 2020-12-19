@@ -165,6 +165,7 @@ docker run -it oh-my-terminal
 * [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 * [on-my-tmux](https://github.com/gpakosz/.tmux)
 * [amix vimrc](https://github.com/amix/vimrc)
+* [ma6174 vimrc](https://github.com/ma6174/vim)
 * [use vim as ide](https://github.com/yangyangwithgnu/use_vim_as_ide)
 * [VIM Awesome](https://vimawesome.com/)
 * [如何在 Linux 下利用 Vim 搭建 C/C++ 开发环境? - 韦易笑的回答 - 知乎](https://www.zhihu.com/question/47691414/answer/373700711)

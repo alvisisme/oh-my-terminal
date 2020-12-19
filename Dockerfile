@@ -5,5 +5,8 @@ RUN apt-get update && \
 
 COPY ./ /root/.oh-my-terminal/
 RUN sh /root/.oh-my-terminal/install.sh
+RUN chsh -s $(which zsh)
+
+WORKDIR /root
 
 ENTRYPOINT [ "/bin/zsh" ]
