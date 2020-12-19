@@ -1,0 +1,5 @@
+version: '3'
+services:
+  oh-my-terminal:
+    image: oh-my-terminal:dev
+    build: .
