@@ -93,7 +93,7 @@ endif
 set ruler
 
 "Show line numbers"
-set nu
+" set nu
 
 " Height of the command bar
 set cmdheight=2
